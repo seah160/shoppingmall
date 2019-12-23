@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlahBlah온라인스토어</title>
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FontAwesome(폰트 아이콘) -->
+  <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
+  <!-- bx slider CSS -->
+  <link rel="stylesheet" href="js/bxslider/jquery.bxslider.min.css">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- bx slider JS -->
+  <script src="js/bxslider/jquery.bxslider.min.js"></script>
+  <!-- 상품데이터 -->
+  <script src="js/data.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="headline">
+    <img src="images/headline.jpg" alt="헤드라인">
+  </div>
+  <header id="main_header">
+    <div class="container">
+      <h1>
+        <a href="./index.html">
+          <img src="images/blahblah_logo.jpg" alt="로고">
+        </a>
+      </h1>
+      <!-- 검색창 -->
+      <form id="search_box">
+        <input 
+          type="text"
+          placeholder="BL 산타베어 스웨터"
+        >
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+  </header>
+
+  <!-- 메인 GNB -->
+  <nav id="main_gnb">
+    <div class="container">
+      <button id="category_btn">
+        <i class="fas fa-bars"></i>
+        <span>CATEGORY</span>
+      </button>
+
+      <ul>
+        <li><a href="#">NEW</a></li>
+        <li><a href="#">SALE</a></li>
+        <li><a href="#">BEST</a></li>
+        <li><a href="#">BRAND</a></li>
+        <li><a href="#">EVENT</a></li>
+        <li><a href="#">MEMBERSHIP</a></li>
+        <li><a href="#">MAGAZINE</a></li>
+      </ul>
+
+      <!-- 유틸리티 메뉴 -->
+      <nav id="util_menu">
+        <a href="#"><img src="images/icon-user.png" alt="로그인"></a>
+        <a href="#"><img src="images/icon-bag.png" alt="장바구니"></a>
+        <a href="#"><img src="images/icon-truck.png" alt="배송"></a>
+      </nav>
+    </div><!-- end container-->    
+  </nav>
+
+  <!-- 카테고리 메뉴 목록 -->
+  <nav id="category">
+    <div class="container"><!-- end container -->
+      <dl>
+        <dt>KIDS</dt>
+        <dd>outer</dd>
+        <dd>top</dd>
+        <dd>bottom</dd>
+        <dd>dress</dd>
+        <dd>SET</dd>
+      </dl>
+      <dl>
+        <dt>JUNIOR</dt>
+        <dd>outer</dd>
+        <dd>top</dd>
+        <dd>bottom</dd>
+        <dd>dress</dd>
+        <dd>SET</dd>
+      </dl>
+      <dl>
+        <dt>ACCESSORIES</dt>
+        <dd>hat</dd>
+        <dd>bag</dd>
+        <dd>shoes</dd>
+        <dd>shocks</dd>
+      </dl>
+      <dl>
+        <dt>cosmetic</dt>
+        <dd>wash</dd>
+        <dd>lotion</dd>
+        <dd>cream</dd>
+        <dd>sun</dd>
+        <dd>lip</dd>
+      </dl>
+    </div><!-- end container -->
+  </nav>
+</nav>
+  <!-- 메인 배너 -->
+  <section id="main_banner">
+    <div class="inner">
+      <div class="bx-slider">
+        <img class="img_responsive" src="./images/main_banner01-1920.jpg" alt="1" title="여기에 배너 설명글을 작성">
+        <img class="img_responsive" src="./images/main_banner02-1920.jpg" alt="2">
+        <img class="img_responsive" src="./images/main_banner03-1920.jpg" alt="3">
+      </div>
+    </div><!-- end inner -->
+  </section>
+
+  <!-- 메인 콘텐츠 -->
+  <!--event item-->
+  <section id="event">
+    <div class="container">
+
+      <ul class="event_list">
+        <li>
+          <a href="#">
+            <!-- 387 x 387 -->
+            <img src="./images/event01.jpg" alt="event1">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- 387 x 387 -->
+            <img src="./images/event02.jpg" alt="event2">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- 387 x 387 -->
+            <img src="./images/event03.jpg" alt="event3">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+<!--new-->
+  <section id="new">
+    <div class="container">
+      <div class="container_title">
+        <h2>
+          <div class="dashed1"></div>
+        NEW ARRIVAL
+          <div class="dashed2"></div>
+        </h2>
+      <ul class="item_list">
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/new01.jpg" alt="new1">
+            <span class="brand">DENIM IN THE BOX</span>
+            <span class="name">DB-GULP다운점퍼</span>
+            <ins class="new_price"><strong>288,000원</strong></ins>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/new02.jpg" alt="new2">
+            <span class="brand">DENIM IN THE BOX</span>
+            <span class="name">DB-체크FUR카라코트</span>
+            <ins class="new_price"><strong>258,000원</strong></ins>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/new03.jpg" alt="new3">
+            <span class="brand">DENIM IN THE BOX</span>
+            <span class="name">DB-산타베어스웨터</span>
+            <ins class="new_price"><strong>118,000원</strong></ins>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/new04.jpg" alt="new4">
+            <span class="brand">LULABEE</span>
+            <span class="name">LB-벨벳자수원피스</span>
+            <ins class="new_price"><strong>138,000원</strong></ins>
+          </a>
+        </li>
+      </ul>
+    </div><!-- end container-->
+  </section>
+
+  <!--sale item-->
+  <section id="sale">
+    <div class="container">
+      <h2>
+        <div class="dashed1"></div>
+      SALE ITEM
+      <div class="dashed2"></div>
+      </h2>
+
+      <ul class="item_list">
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/sale01.jpg" alt="sale1">
+            <span class="brand">DENIM IN THE BOX</span>
+            <span class="name">DB-TELAPO스웨터</span>
+            <p>
+            <del class="origin_price">118,000원</del>
+            <ins class="sale_price">70,800원</ins>
+            </p>
+            <span class="ico_sale">40%</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/sale02.jpg" alt="sale2">
+            <span class="brand">DENIM IN THE BOX</span>
+            <span class="name">DB-코듀로이바지</span>
+            <p>
+            <del class="origin_price">98,000원</del>
+            <ins class="sale_price">58,800원</ins>
+            </p>
+            <span class="ico_sale">40%</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/sale03.jpg" alt="sale3">
+            <span class="brand">LULABEE</span>
+            <span class="name">LB-레오파드퍼숏코트</span>
+            <p>
+            <del class="origin_price">338,000원</del>
+            <ins class="sale_price">236,600원</ins>
+            </p>
+            <span class="ico_sale">30%</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <!-- 285 x 285 -->
+            <img src="./images/sale04.jpg" alt="sale4">
+            <span class="brand">LULABEE</span>
+            <span class="name">LB-스노우화이트원피스</span>
+            <p>
+            <del class="origin_price">206,000원</del>
+            <ins class="sale_price">144,200원</ins>
+            </p>
+            <span class="ico_sale">30%</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    </section>
+
+  <!-- official -->
+  <section id="official">
+    <div class="container">
+      <ul>
+        <h2>
+          <div class="dashed1"></div>
+          <a href="#"><img src="./images/instagram_icon.png" alt="인스타"></a>
+        <div class="dashed2"></div>
+        </h2>
+
+      <ul class="official_list">
+        <li>
+          <a href="https://www.instagram.com/p/B6SEBvEAXW9">
+          <img src="./images/official01.jpg" alt="인스타1">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6NP4mSgSGf">
+          <img src="./images/official02.jpg" alt="인스타2">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6Hv7TFgOSg/">
+          <img src="./images/official03.jpg" alt="인스타3">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6HvdAVgip8/">
+          <img src="./images/official04.jpg" alt="인스타4">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6HvD-RAEFv/">
+          <img src="./images/official05.jpg" alt="인스타5">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6W57TNDw3y/">
+          <img src="./images/official06.jpg" alt="인스타6">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B5_gutnDNgn/">
+          <img src="./images/official07.jpg" alt="인스타7">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6W6QBEjIZd/">
+          <img src="./images/official08.jpg" alt="인스타8">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6SVT7QjZAV/">
+          <img src="./images/official09.jpg" alt="인스타9">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/B6Hvyy-j1_u/">
+          <img src="./images/official10.jpg" alt="인스타10">
+          </a>
+        </li>
+      </ul>
+    </div>  
+  </section>
+
+  <footer id="main_footer">
+    <div class="container">
+    <h1><img src="./images/blahblah_footerlogo.png" alt="블라블라푸터로고"></h1>
+    <p>
+      <a href="#"><strong>개인정보처리방침</strong></a>   |
+      <a href="#">영상정보처리기기운영･관리방침</a>   | 
+      <a href="#">이용약관</a>  | 
+      <a href="#">회원탈퇴</a>  | 
+      <a href="#">Hosting by cafe24</a>
+    </p>
+    <p>대표이사: 김세아 | 사업자등록번호: 206-86-29161 | 주소: 서울시 양천구 목동로77길 7 | <a href="#">대표메일: blah@balhblah.co.kr</a> | <a href="#"><strong>고객센터 1688-1666</strong></a></p>
+    <p>소비자피해보상보험 고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 구매 안전서비스를 이용하실 수 있습니다.</p>
+    <p class="copyright">Copyright &copy; 2019 BlahBlah, All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
