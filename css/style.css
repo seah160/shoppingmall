@@ -7,11 +7,11 @@
 ul{ list-style-type: none;}
 a{
   text-decoration: none;
-  color: #444;
+  color: #666;
 }
 body {
   background: #fff;
-  color: #444;
+  color: #666;
   font-size: 100%;
   font-family: 'Noto Sans KR', sans-serif;
   min-width: 1200px; /* 배경 잘림 방지 */
@@ -59,9 +59,6 @@ h2 {
 #main_header h1 {
   position: absolute;
   left: 500px; top: 45px;
-}
-#main_header #util_menu > a {
-  margin-left: 10px;
 }
 
 /* 검색창 */
@@ -117,7 +114,7 @@ h2 {
   font-family: 'Noto Serif', serif;
   color: #7a5a3b;
   font-weight: bold;
-  padding: 17px 40px 17px 0px;
+  padding: 20px 50px 20px 0px;
   cursor: pointer;
 }
 #category_btn > i { 
@@ -141,7 +138,7 @@ h2 {
 }
 #main_gnb ul > li > a {
   display: block;
-  padding: 17px 0px 17px 20px;
+  padding: 20px 0px 20px 20px;
   font-weight: bold;
 }
 #main_gnb > .container > ul > li > a:hover {
@@ -150,10 +147,10 @@ h2 {
 /*util*/
 #util_menu {
   float: right;
-  margin-top: 12px;
+  margin-top: 18px;
 }
 #util_menu a {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 /* 메인배너 */
 #main_banner { 
@@ -191,7 +188,7 @@ h2 {
   overflow: hidden;
 }
 #event ul > li {
-  width: 386px;
+  width: 393px;
   float: left;
   margin-right: 10px;
   padding-bottom: 10px;
@@ -319,20 +316,21 @@ h2 {
 #main_footer {
   width: 100%;
   text-align: left;
-  background: #ccc;
+  background: #fff;
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 #main_footer .container > h1 {
   margin-bottom: 12px;
 }
 #main_footer .container > p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8em;
 }
 #main_footer .container > .copyright {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 12px;
+  color: #999;
 }
 
 /* 카테고리 메뉴 */
@@ -347,10 +345,13 @@ h2 {
   box-shadow: 2px 2px 2px #333;
   font-family: 'Noto Serif', serif;
 }
+#category_btn:hover{
+  color: #666;
+}
 #category dl {
   float: left;
-  width: 20%;
-  padding: 18px;
+  width: 15%;
+  padding:20px 60px 20px 0px;
   text-transform: uppercase; /* 대문자 */
   line-height: 2em;
   color: #fff;
@@ -358,8 +359,9 @@ h2 {
 #category dl dt {
   font-size: 16px;
   font-weight: bold;
-  interval: 50px;
-  color: #fff;
   border-bottom: 1px solid #fff;
   padding-bottom: 5px;
+}
+#category dl dd {
+  font-size: 14px;
 }
