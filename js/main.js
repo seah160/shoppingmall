@@ -83,7 +83,7 @@ $(function(){
       pause: 4000,            // 정지시간(대기)
       controls: false,        // prev, next 표시/비표시
       pager: true,            // 하단 인디케이터 표시/비표시
-      responsive: false,
+      autoHover:true          //마우스 올라가명 재생 정지
     });
   
     $('.brand-slider').bxSlider({
